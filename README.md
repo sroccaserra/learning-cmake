@@ -3,8 +3,15 @@ Steps:
 ```
 $ mkdir build
 $ cd build
-$ CC=GCC cmake ..
+$ CC=gcc cmake ..
 $ make
+```
+
+Or:
+
+```
+$ CC=gcc cmake -S . -B build
+$ cmake --build build
 ```
 
 ## References
