@@ -3,7 +3,7 @@ Steps:
 ```
 $ mkdir build
 $ cd build
-$ cmake ..
+$ CC=GCC cmake ..
 $ make
 ```
 
